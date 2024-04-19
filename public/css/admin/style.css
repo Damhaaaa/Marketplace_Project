@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+* {
+    font-family: "Be Vietnam Pro", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    background-color: #FF0000;
+}
+
+.navbar img{
+    width: 100px;
+    height: 25px;
+}
+
+.navbar form{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.navbar form input{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.banner{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner img{
+    height: 300px;
+    width: 720px;
+    border-radius: 25px;
+}
+
+.products-container{
+    display: flex;
+}
+
+.product-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #666;
+    max-height: 144px;
+    overflow-y: scroll;
+}
+
+.product-card .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.product-card .btn:hover {
+    background-color: #0056b3;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td{
+    overflow-y: scroll;
+    height: 100px;
+    width: 200px;
+  }
+
+  td img{
+    height: 100px;
+    width: 100px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  td .action-table{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 25px;
+  }
+
+  td .action-table a{
+    text-decoration: none;
+    background-color: #ebe713;
+    padding: 5px 25px;
+    border-radius: 5px;
+    color: #0f0f0f;
+  }
+
+  td .action-table a:hover{
+    background-color: #bdba17;
+  }
+
+  td .action-table button{
+    padding: 5px 15px;
+    border: none;
+    color: #e0e0e0;
+    background-color: #FF0000;
+  }
